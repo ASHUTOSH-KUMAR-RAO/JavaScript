@@ -17,16 +17,16 @@ const userName = "BUDDHU-ASHU"; //
 
 console.log(userName.charAt(3)); // isese hum pta hai kerte hai iss number ke jagah per kya word hai 
 
-console.log(userName.indexOf("H")); // aur isese pta chalta hai ki ye kitne position  per hai ye word
+console.log(userName.indexOf("H")); //TODO aur isese pta chalta hai ki ye kitne position  per hai ye word
 
 const newString = userName.substring(0,5)
 
-console.log(newString); // iska mtlb hota hai jitne word hai 5 taak utna o/p de deta hai
+console.log(newString); // ! iska mtlb hota hai jitne word hai 5 taak utna o/p de deta hai
 
 const awashBeta = "   cudbaile   "
 console.log(awashBeta);
 
-console.log(awashBeta.trim()); // iska mtlb hota hai ye space ko count nhi krta hai 
+console.log(awashBeta.trim()); //  ? iska mtlb hota hai ye space ko count nhi krta hai 
 
 const url = "http://icoashutoshack.com " 
 

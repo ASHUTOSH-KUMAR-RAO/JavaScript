@@ -8,7 +8,7 @@
 //  }
 //  boysName("ASHUTOSH"," AWASH")
 
- function calculateCartprice (...num1){ // hum isko as rest operator ki tarah use kaar rehe hai aur isko hum spread bhi bolte hai lekin wo case alaga hota hai
+ function calculateCartprice (...num1){ //! hum isko as rest operator ki tarah use kaar rehe hai aur isko hum spread bhi bolte hai lekin wo case alaga hota hai
 
     function calculateCartprice(val1,val2,...num1){
 

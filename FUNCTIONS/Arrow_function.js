@@ -19,10 +19,10 @@ const user = {
 
         //  +++++++*********Actuall mein arrow function ye hai ++++++
         
-    //     const ashutosh =(num1,num2) => {
+    //   !   const ashutosh =(num1,num2) => {
 
 // ==> ye hai 1st method (implicit return)
-    //         return num1 + num2
+    //   TODO       return num1 + num2
     //     } // Syntax of arow function 
     //  console.log(ashutosh(4,6));
 
