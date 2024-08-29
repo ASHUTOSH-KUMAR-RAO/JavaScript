@@ -1,0 +1,41 @@
+<!-- Parent aur children ke relation ko kaise use kerte hai hum -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relationship Between Parent & Child</title>
+
+</head>
+<body style="background-color: #212121; color: #fff; font-size: 30px;">
+<div class="parent">
+    <div id="month">Janurary</div>
+    <div id="month">Februrary</div>
+    <div id="month"> March</div>
+    <div id="month">April</div>
+</div>
+</body>
+
+<script>
+  
+  var parent =   document.querySelector(".parent")
+//  ==>  1st way hai 
+  // console.log(parent);
+  // console.log(parent.children);
+  // console.log(parent.children[2].innerHTML);
+
+// ==> 2nd way hai
+  // for (let i = 0; i < parent.children.length; i++) {
+  //   console.log (parent.children[i].innerHTML);
+    
+  // }
+parent.children[2].style.color = "red"; //aise hum styling bhi kar sekte hai easly
+console.log(parent.firstElementChild); // isese hum kisi element ke 1st value ko find kaar sekte hai
+console.log(parent.lastElementChild); // aur isese hum kisi element ke last value ko find kaar sekte hai
+console.log("nodes: ",parent.childNodes); 
+
+
+
+</script>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Events</title>
+</head>
+<body>
+    <h1>About Events</h1>
+
+    <ul>
+        <li>
+            <img src = "https://img.freepik.com/free-photo/tiger-looking-with-open-mouth_1150-18083.jpg?t=st=1721401681~exp=1721405281~hmac=4eb782ebc425a31d6e41b8279f079e1ebcfb36954e733ffbe3fa05a9797aee43&w=740" alt="" id="Lion">
+            <img src="https://img.freepik.com/free-photo/monkey-living-nature_167946-168.jpg?t=st=1721401627~exp=1721405227~hmac=6081bc9841c79b59d44fb92a987d750e1ac64a9b7ba96155c5d0e0a466ce1950&w=360" alt="" id="Monkey">
+            <img src="https://img.freepik.com/free-photo/closeup-scarlet-macaw-from-side-view-scarlet-macaw-closeup-head_488145-3540.jpg?t=st=1721401476~exp=1721405076~hmac=628955a0a01fef15f3a3016d11efa945f4ffefa74f2d681eba6469e04d1e84f5&w=360" alt="" id="Parrot">
+            <img src="https://img.freepik.com/free-photo/closeup-head-javan-cobra-snake-javan-cobra-snake-ready-attack-closeup-snake_488145-3620.jpg?t=st=1721401549~exp=1721405149~hmac=176b618718ea4a2fc5f1415e7c8f7790fbc3ca2f7fc16725a63666b3cdb27c78&w=740" alt="" id="Cobra">
+        </li>
+    </ul>
+
+
+
+    <script>
+
+            // document.getElementById('Monkey').addEventListener('click',function(e){
+            //     // alert("This is a king of tree")
+            //     console.log(e) //isko bolte hai hum eventObject {ye btata hai ki iske andar kitne type ke events hote hai aur object bhi}
+                // e.stopPropagation(); // iska mtlb hota hai bubble run ke uper ke element ko nhi lega
+                // e.preventDefault();
+            // })
+
+            document.getElementById('Parrot').addEventListener('click',function(e){
+                alert("This is a parrot")
+                console.log(e.target.parentNode);
+                let removeIt = e.target.parentNode;
+                removeIt.remove(); // iska mtlb hota hai hum events lgaye hai unko removekaar diiye hai 
+            })
+
+
+    </script>
+</body>
+</html>

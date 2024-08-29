@@ -7,9 +7,9 @@ const basicsArrays = [1,2,4,5,6,7] // declare aise kerte hai
 
 console.log(favPlayer[2]); 
 
-// aur ye resizable hote hai iska mtlb hota hai ki hum arrays ke andar ke andar ki value ko change bhi kaar sekte hai "aur hum iske andar kisi bhi type ke element ko le sekte hai "
+//! aur ye resizable hote hai iska mtlb hota hai ki hum arrays ke andar ke andar ki value ko change bhi kaar sekte hai "aur hum iske andar kisi bhi type ke element ko le sekte hai "
 
-//  +++++++ METHODS OF ARRAYS ++++++++++
+// * +++++++ METHODS OF ARRAYS ++++++++++
 
 basicsArrays.push(7) // iska mtlb hota jo kuch bhi hum push ke andar ke likhte hai usko arrays ke andar hi add kar deta hai 
 

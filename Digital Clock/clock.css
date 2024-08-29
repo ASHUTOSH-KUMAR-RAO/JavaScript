@@ -1,0 +1,38 @@
+* {
+margin : 0;
+padding : 0;
+box-sizing : border-box;
+font-family : Gilroy ;
+}
+
+html,body {
+height : 100%;
+width : 100%;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #212121;
+}
+
+.clock{
+    height: 50px;
+    width: 100px;
+    background-color: pink;
+    position: absolute;
+    top: 52%;
+    left: 46%;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+
+p{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin: 10px;
+}

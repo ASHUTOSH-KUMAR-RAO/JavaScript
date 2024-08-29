@@ -1,6 +1,7 @@
 // ye java script ke sath by default library hota hai
 
  console.log(Math);
+ console.log(Math.random); // generate random number
 
  console.log(typeof Math);
 

@@ -2,6 +2,7 @@
 
 // ? Global scope ke pollution se problems hoti hai bahut baar to usese bachne ke liye ya usko htane ke liye hum IIFE ka use kerte hai 
 
+
 (function ashu (){
     console.log("Ashu")
 })();  // TODO => yeha extra parenthesis ke wajah se hi ye statment print ho raha hai aur isko hi bolte hai IIFE jo ki jaldi krta hai 
@@ -16,6 +17,7 @@
 
 
 
+
 // ************** HOW TO EXECUTE JAVASCRIPT CONTETX *********
 
 
@@ -26,5 +28,7 @@
 
 
 // ? 1st hai Memory Creation phase (iska mtlb hota hum jitna kuch bhi define karat hai wo saab bass store hota hai memory allocation ke andar,jaise variabels,addition aur bhi jitna kuch hum declare karate hai )
+
+
 
 // ?2nd hota hai Execution phase hota hai 

@@ -1,0 +1,56 @@
+* {
+margin : 0;
+padding : 0;
+box-sizing : border-box;
+font-family : Gilroy ;
+}
+
+html,body {
+height : 100%;
+width : 100%;
+}
+
+
+body{
+    background-color: #414141;
+
+}
+
+h1 {
+    color: aquamarine;
+    position: absolute;
+      left: 40%;
+      top: 20%;
+}
+
+#MOVE{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+#MOVE:hover {
+    background-color: lightblue;
+}
+
+#STOP{
+    position: fixed;
+    top: 50%;
+    right: 35%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#STOP:hover {
+    background-color: seagreen;
+}

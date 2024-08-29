@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Node se related Concepts</title>
+</head>
+<body style="background-color: black; color: royalblue;">
+    
+</body>
+<script>
+// Aise hum kisi element ko create karte hai Js mein 🫡
+var div = document.createElement("h3")
+console.log(div);
+div.className = "Ashutosh"
+div.id = "Ashu"
+div.setAttribute = ("tittle","generator")
+div.style.backgroundColor = "crimson"
+div.style.padding = "20px"
+
+// div.innerHTML = "hi ashutosh aise hi hum kisi element ko create kerte hai js ke through"
+//  ==> hum aise bhi apne html ke andar kuch likh sekte hai 
+
+ var addtext = document.createTextNode("ashutosh aur Chai") // hum aise bhi apne html ke andar kuch likh sekte hai 
+div.appendChild(addtext)
+
+document.body.appendChild(div) // aur jo kuch bhi hum create karte hai js ke andar  hum usko iske through show karwate hai apne body per
+
+</script>
+</html>

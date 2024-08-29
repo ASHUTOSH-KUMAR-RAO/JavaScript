@@ -19,7 +19,7 @@ const bahutSahi = [
   [6, 8, 9, 0, [10, 12, 14, (11)[(15, 16, 17)]]],
 ];
 
-const solution_arrays = bahutSahi.flat(Infinity); // araays ke andar arrays ko print kara sekte hai isko bolte hai flat arrays
+const solution_arrays = bahutSahi.flat(Infinity); //? araays ke andar arrays ko print kara sekte hai isko bolte hai flat arrays
 
 // console.log(allStars);
 
@@ -27,9 +27,9 @@ console.log(all_ips_star);
 
 console.log(solution_arrays);
 
-console.log(Array.from("ASHUTOSH")); // arrays mein convert krta hai
+console.log(Array.from("ASHUTOSH")); //todo arrays mein convert krta hai
 
-console.log(Array.from({ name: "awash" })); // array ko kisi ke trough karate hai to wo empty ata hai
+console.log(Array.from({ name: "awash" })); //! array ko kisi ke trough karate hai to wo empty ata hai
 
 let abhiScore = 10;
 

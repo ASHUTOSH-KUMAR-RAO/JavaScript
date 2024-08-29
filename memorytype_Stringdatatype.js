@@ -4,9 +4,9 @@
  
  //  Generally "2" Types ke hote hai 1st one is "STACK" and 2nd is "HEAP"
 
-//  useses of "Stack" ==> ye PRIMITIVE datatype ke andar use hota hai < aur ye copy value milta hai>
+//  useses of "Stack" ==> ye PRIMITIVE datatype ke andar use hota hai < aur yeha copy value milta hai>
 
-//  useses of "Heap" ==> ye NON - PRIMITIVE datatype ke andar use hota hai < ye original value milta hai >
+//  useses of "Heap" ==> ye NON - PRIMITIVE datatype ke andar use hota hai < yeha original value milta hai >
 
 
 /* ********STRING DATA TYPES **************** 👀👀 */

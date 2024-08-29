@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apip request</title>
+  </head>
+  <body style="background-color: #212121">
+    <h1 style="color: aquamarine">hi ashu kaise ho ❤️</h1>
+    <script>
+      const apiUrl = "https://api.github.com/users/ASHUTOSH-KUMAR-RAO";
+      const xmlhRequest = new XMLHttpRequest();
+      xmlhRequest.open("GET", apiUrl);
+      xmlhRequest.onreadystatechange = function () {
+        console.log(xmlhRequest.readyState); // State Change ho gya hai yeha per
+        if (xmlhRequest.readyState === 4) {
+          const data = JSON.parse(this.responseText); //! ye pehle tha string mein to hamne isko object mein convert kya aur aise hi hum kisi bhi data type ko convert kar sekte hai
+          console.log(typeof data);
+          console.log(data.following); // aise hi hum kuch bhi check kaar sekte hai email,name,id, anyhting
+        }
+      };
+      xmlhRequest.send();
+    </script>
+  </body>
+</html>
